@@ -170,13 +170,15 @@ ehthumbs.db
 Desktop.ini
 
 # Simulation results
-examples/simulation_results/
-simulation_results/
-output/
-*.png
-*.csv
-*.xlsx
-*.json
+examples/simulation_results/*.csv
+examples/simulation_results/*.json
+examples/simulation_results/*.xlsx
+examples/simulation_results/*.tmp
+examples/simulation_results/*.bak
+examples/simulation_results/*.swp
+examples/simulation_results/*~
+# Allow PNGs for documentation
+!examples/simulation_results/*.png
 
 # API keys and sensitive data
 .env
