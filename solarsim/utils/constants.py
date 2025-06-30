@@ -34,6 +34,12 @@ PV_TECHNOLOGIES = {
         'temperature_coefficient': -0.0025,
         'degradation_rate': 0.0025,
         'cost_per_watt': 0.60
+    },
+    'polycrystalline': {
+        'efficiency_range': (0.13, 0.17),
+        'temperature_coefficient': -0.005,
+        'degradation_rate': 0.007,
+        'cost_per_watt': 0.25
     }
 }
 
@@ -45,7 +51,7 @@ BATTERY_TECHNOLOGIES = {
         'round_trip_efficiency': 0.95,
         'calendar_life': 15,                # years
         'dod_max': 0.95,                   # depth of discharge
-        'cost_per_kwh': 200,               # $/kWh (2025)
+        'cost_per_kwh': 150,               # $/kWh (2024, Bangladesh)
         'self_discharge_rate': 0.003       # %/day
     },
     'li_ion_nmc': {
@@ -65,6 +71,15 @@ BATTERY_TECHNOLOGIES = {
         'dod_max': 0.50,
         'cost_per_kwh': 100,
         'self_discharge_rate': 0.01
+    },
+    'generic_china_lead_acid': {
+        'energy_density': 30,
+        'cycle_life': 400,
+        'round_trip_efficiency': 0.75,
+        'calendar_life': 5,
+        'dod_max': 0.45,
+        'cost_per_kwh': 60,
+        'self_discharge_rate': 0.015
     }
 }
 

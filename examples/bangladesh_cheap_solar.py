@@ -18,7 +18,7 @@ def create_bangladesh_cheap_config():
     )
     config.battery = BatteryConfig(
         capacity_kwh=10.0,
-        technology='generic_china_lead_acid'
+        technology='lifepo4'
     )
     config.inverter = InverterConfig(
         capacity_kw=4.0
