@@ -1,0 +1,45 @@
+# Core scientific computing
+numpy>=1.21.0
+pandas>=1.5.0
+scipy>=1.9.0
+
+# Data visualization
+matplotlib>=3.5.0
+seaborn>=0.11.0
+plotly>=5.10.0
+dash>=2.0.0
+
+# Machine Learning
+scikit-learn>=1.1.0
+tensorflow>=2.10.0
+keras>=2.10.0
+
+# Time series and forecasting
+statsmodels>=0.13.0
+prophet>=1.1.0
+
+# Weather data
+requests>=2.28.0
+pvlib>=0.9.0
+
+# Configuration and data handling
+pyyaml>=6.0
+h5py>=3.7.0
+openpyxl>=3.0.10
+
+# Optimization
+cvxpy>=1.2.0
+pyomo>=6.4.0
+
+# Jupyter and development
+jupyter>=1.0.0
+ipywidgets>=7.7.0
+tqdm>=4.64.0
+
+# Testing
+pytest>=7.1.0
+pytest-cov>=3.0.0
+
+# Documentation
+sphinx>=5.0.0
+sphinx-rtd-theme>=1.0.0 
